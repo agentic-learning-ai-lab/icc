@@ -1,2 +1,3 @@
-# icc
-In-Context Clustering with Large Language Models
+# In-Context Clustering with Large Language Models
+
+Abstract: We propose In-Context Clustering (ICC), a flexible LLM-based procedure for clustering data from diverse distributions. Unlike traditional clustering algorithms constrained by predefined similarity measures, ICC flexibly captures complex relationships among inputs through the attention mechanism. We show that pretrained LLMs exhibit impressive zero-shot clustering capabilities on text-encoded numeric data, with attention matrices showing salient cluster patterns. Spectral clustering using these attention matrices provides surprisingly competitive performance. We further enhance the clustering capabilities of LLMs on numeric and image data through fine-tuning using Next Token Prediction (NTP) loss. Moreover, the flexibility of LLM prompting enables text-conditioned image clustering, a capability that classical clustering methods lack. Our work extends in-context learning to an unsupervised setting, showcasing the effectiveness and flexibility of LLMs for clustering.
